@@ -1,0 +1,42 @@
+            Additions to the QuickPak Scientific Owner's Manual
+
+
+Included with QuickPak Scientific is a complete BASIC implementation of a
+Hewlett-Packard programmable hand-held calculator.  We have provided both
+the executable version as well as the full QuickBASIC source code.  However,
+recompiling the program requires our QuickPak Professional library.  The
+instruction manual for the calculator is available on-line while the program
+is running.
+
+To start the program enter HANDHELD and press Enter.  Be sure to choose an
+illegal operation when you run it, to see the program author's sense of
+humor.  (After starting the program and entering the calculator portion, try
+pressing F1.)  Please understand that HANDHELD has no relation to QuickPak
+Scientific, and it is included for your interest and amusement only.
+
+The following files comprise the HANDHELD program:
+
+    HANDHELD.BAS        the BASIC source code
+    HANDHELD.EXE        the executable version of the program
+    HHHELP.TXT          the manual on disk
+    HHELPTXT.BAS        the program that creates the help text
+    USRFNCT.CRD         the file that holds your user-definable functions
+
+
+
+
+
+                         Non-Linear Curve Fitting
+
+    The program DEMONLF1.BAS interactivly uses a combination of
+unconstrained minimization and least squares to curve fit data to any
+non-linear equation defined by the user.  Please see the manual addendum
+for complete documentation.
+
+The following files are used by DEMONLF1:
+
+    DEMONLF1.MAK        the QuickBASIC make file
+    DEMONLF1.BAS        the BASIC source code
+    MINIMIZ3.BAS        minimization subroutine
+    USRFUN1.BAS         objective function and gradient subroutine
+    KEYCHECK.BAS        standard support subroutine
