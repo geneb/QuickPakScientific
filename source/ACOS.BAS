@@ -1,5 +1,5 @@
 ' Copyright (c) 1988, 1990 Crescent Software
-
+' Released to the Public Domain on 10/26/18.
 DEFINT I-N
 DEFDBL A-H, O-Z
 
